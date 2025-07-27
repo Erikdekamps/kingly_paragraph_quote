@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5c6a1b2-f3d4-e5f6-a7b8-c9d0e1f2a3b4
+  bundle: kingly_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Quote paragraph'
+  created:
+    -
+      value: 1753639000
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /quote-paragraph
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6
+          bundle: kingly_paragraph_quote
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753639020
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          field_quote_text:
+            -
+              value: '<p>The advance of technology is based on making it fit in so that you don''t really even notice it, so it''s part of everyday life.</p>'
+              format: basic_html
+          field_quote_attribution:
+            -
+              value: 'Bill Gates'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f1e2d3c4-b5a6-f7e8-d9c0-b1a2c3d4e5f6
+          bundle: kingly_paragraph_quote
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753639040
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          field_quote_text:
+            -
+              value: '<p>Technology is best when it brings people together.</p>'
+              format: basic_html
+          field_quote_attribution:
+            -
+              value: 'Matt Mullenweg'

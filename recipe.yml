@@ -1,0 +1,10 @@
+name: 'Kingly paragraph quote'
+type: 'Site'
+description: 'Configures a Kingly quote paragraph.'
+
+install:
+  - paragraphs
+  - text
+
+config:
+  strict: false

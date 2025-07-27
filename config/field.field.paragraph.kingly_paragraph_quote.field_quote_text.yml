@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.kingly_paragraph_quote
+  module:
+    - text
+id: paragraph.kingly_paragraph_quote.field_quote_text
+field_name: field_quote_text
+entity_type: paragraph
+bundle: kingly_paragraph_quote
+label: 'Quote text'
+description: 'Enter the main text for the quote. Basic HTML is allowed for emphasis.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
