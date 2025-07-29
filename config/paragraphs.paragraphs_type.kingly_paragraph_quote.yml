@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: kingly_paragraph_quote
-label: 'Kingly Quote'
+label: 'Quote'
 icon_uuid: null
 icon_default: null
 description: 'A quote with optional attribution, rendered by a Single Directory Component.'
